@@ -1,0 +1,34 @@
+{
+  "linhas": 9,
+  "colunas": 5,
+  "palavras": [
+    {
+      "resposta": "SCRUM",
+      "dica": "Framework ágil muito usado em equipes",
+      "linha": 0,
+      "coluna": 0,
+      "direcao": "horizontal"
+    },
+    {
+      "resposta": "SPRINT",
+      "dica": "Ciclo curto de trabalho no Scrum",
+      "linha": 0,
+      "coluna": 0,
+      "direcao": "vertical"
+    },
+    {
+      "resposta": "REQUISITO",
+      "dica": "Necessidade que o software deve atender",
+      "linha": 0,
+      "coluna": 2,
+      "direcao": "vertical"
+    },
+    {
+      "resposta": "TESTE",
+      "dica": "Etapa que verifica se o software funciona",
+      "linha": 5,
+      "coluna": 0,
+      "direcao": "horizontal"
+    }
+  ]
+}
