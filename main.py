@@ -1,45 +1,61 @@
-from src.carregador import carregar_dados
-from src.regras import resposta_correta
-from src.visual import montar_casas
+from src.carregador import carregar_dados, carregar_grade
+from src.jogo import jogar_grade
+from src.menu import escolher
+from src.progresso import carregar_progresso, salvar_progresso
 
-MAX_TENTATIVAS = 3
 
-dados = carregar_dados()
-topico = dados["topicos"][0]
-assunto = topico["assuntos"][0]
-fase = assunto["fases"][0]
+def main():
+    dados = carregar_dados()
+    progresso = carregar_progresso()
 
-pontos = 0
+    print("=" * 40)
+    print("PALAVRAS CRUZADAS DE ESTUDO")
+    print("=" * 40)
 
-print("=" * 40)
-print("Tópico:", topico["nome"])
-print("Assunto:", assunto["nome"])
-print("Fase:", fase["numero"])
-print("=" * 40)
+    topicos = dados["topicos"]
+    posicao = escolher("Tópico de estudo:", [t["nome"] for t in topicos])
+    if posicao is None:
+        return
+    topico = topicos[posicao]
 
-for palavra in fase["palavras"]:
-    print()
-    print("Dica:", palavra["dica"])
-    print(montar_casas(palavra["resposta"]))
+    assuntos = topico["assuntos"]
+    posicao = escolher("Assunto:", [a["nome"] for a in assuntos])
+    if posicao is None:
+        return
+    assunto = assuntos[posicao]
 
-    acertou = False
+    fases = assunto["fases"]
+    if not fases:
+        print("\nEste assunto ainda não tem fases. Em breve!")
+        return
 
-    for tentativa_atual in range(1, MAX_TENTATIVAS + 1):
-        tentativa = input(f"Tentativa {tentativa_atual}/{MAX_TENTATIVAS}: ")
+    chave = f"{topico['nome']} / {assunto['nome']}"
+    fase_atual = progresso.get(chave, 1)
 
-        if resposta_correta(tentativa, palavra["resposta"]):
-            acertou = True
-            break
+    fase = None
+    for f in fases:
+        if f["numero"] == fase_atual:
+            fase = f
 
-        print("Errou!")
+    if fase is None:
+        print("\nVocê concluiu todas as fases disponíveis deste assunto!")
+        return
 
-    print(montar_casas(palavra["resposta"], revelada=True))
+    minimo = fase["pontos_minimos"]
+    print(f"\nFase {fase['numero']}: mínimo de {minimo} pontos para avançar")
 
-    if acertou:
-        print("Acertou! +10 pontos")
-        pontos += 10
+    dados_grade = carregar_grade(fase["grade"])
+    pontos = jogar_grade(dados_grade)
+
+    print(f"\nFim da fase! Pontuação: {pontos}")
+
+    if pontos >= minimo:
+        progresso[chave] = fase_atual + 1
+        salvar_progresso(progresso)
+        print("Parabéns, você passou de fase!")
     else:
-        print("Suas tentativas acabaram.")
+        print(f"Faltaram {minimo - pontos} pontos. Tente de novo!")
 
-print()
-print("Fim da fase! Pontuação:", pontos)
+
+if __name__ == "__main__":
+    main()

@@ -8,6 +8,8 @@
           "fases": [
             {
               "numero": 1,
+              "grade": "grade_teste.json",
+              "pontos_minimos": 30,
               "palavras": [
                 {"resposta": "BUG", "dica": "Erro no software"},
                 {"resposta": "UML", "dica": "Linguagem de modelagem visual de sistemas"},
@@ -19,6 +21,15 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "nome": "Língua Portuguesa",
+      "assuntos": [
+        {
+          "nome": "Tipos Textuais",
+          "fases": []
         }
       ]
     }
