@@ -1,4 +1,4 @@
-from src.grade import montar_quadro, posicoes_da_palavra
+from src.grade import casas_de_dica, montar_quadro, posicoes_da_palavra
 from src.regras import resposta_correta
 from src.visual import desenhar_quadro
 
@@ -9,6 +9,7 @@ PONTOS_POR_PALAVRA = 10
 def jogar_grade(dados_grade):
     quadro = montar_quadro(dados_grade)
     palavras = dados_grade["palavras"]
+    dicas = casas_de_dica(dados_grade)
 
     reveladas = set()
     resolvidas = set()

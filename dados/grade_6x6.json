@@ -1,0 +1,12 @@
+{
+  "linhas": 6,
+  "colunas": 6,
+  "palavras": [
+    {"resposta": "TESTE", "dica": "Verificação para achar erros no software", "linha": 1, "coluna": 1, "direcao": "horizontal"},
+    {"resposta": "TELA", "dica": "Interface visual que o usuário enxerga", "linha": 1, "coluna": 1, "direcao": "vertical"},
+    {"resposta": "SENHA", "dica": "Segredo usado para entrar no sistema", "linha": 1, "coluna": 3, "direcao": "vertical"},
+    {"resposta": "ETAPA", "dica": "Cada fase de um processo", "linha": 1, "coluna": 5, "direcao": "vertical"},
+    {"resposta": "LINHA", "dica": "Cada fileira do código-fonte", "linha": 3, "coluna": 1, "direcao": "horizontal"},
+    {"resposta": "MAPA", "dica": "Estrutura que liga chaves a valores", "linha": 5, "coluna": 2, "direcao": "horizontal"}
+  ]
+}

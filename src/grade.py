@@ -33,3 +33,14 @@ def montar_quadro(dados_grade):
             quadro[linha][coluna] = letra
 
     return quadro
+def casas_de_dica(dados_grade):
+    dicas = {}
+    for numero, palavra in enumerate(dados_grade["palavras"], start=1):
+        if palavra["direcao"] == "horizontal":
+            posicao = (palavra["linha"], palavra["coluna"] - 1)
+        else:
+            posicao = (palavra["linha"] - 1, palavra["coluna"])
+
+        if posicao[0] >= 0 and posicao[1] >= 0:
+            dicas.setdefault(posicao, []).append(numero)
+    return dicas

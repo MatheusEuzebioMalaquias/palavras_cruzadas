@@ -3,14 +3,22 @@ def montar_casas(resposta, revelada=False):
         return " ".join(f"[{letra}]" for letra in resposta)
     return " ".join("[ ]" for _ in resposta)
 
-def desenhar_quadro(quadro, reveladas=None):
+
+def desenhar_quadro(quadro, reveladas=None, dicas=None):
     for numero_linha, linha in enumerate(quadro):
         casas = []
         for numero_coluna, casa in enumerate(linha):
-            if casa is None:
-                casas.append(" . ")
-            elif reveladas is None or (numero_linha, numero_coluna) in reveladas:
-                casas.append(f"[{casa}]")
+            posicao = (numero_linha, numero_coluna)
+            if casa is not None:
+                if reveladas is None or posicao in reveladas:
+                    casas.append(f"[{casa}]")
+                else:
+                    casas.append("[ ]")
+            elif dicas is not None and posicao in dicas:
+                texto = "/".join(str(n) for n in dicas[posicao])
+                casas.append(f"{texto:^3}")
+            elif dicas is not None:
+                casas.append("###")
             else:
-                casas.append("[ ]")
+                casas.append(" . ")
         print(" ".join(casas))

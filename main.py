@@ -1,6 +1,6 @@
-from src.carregador import carregar_dados, carregar_grade
-from src.jogo import jogar_grade
+from src.carregador import carregar_dados
 from src.menu import escolher
+from src.modo_dicas import jogar_fase
 from src.progresso import carregar_progresso, salvar_progresso
 
 
@@ -44,17 +44,21 @@ def main():
     minimo = fase["pontos_minimos"]
     print(f"\nFase {fase['numero']}: mínimo de {minimo} pontos para avançar")
 
-    dados_grade = carregar_grade(fase["grade"])
-    pontos = jogar_grade(dados_grade)
+    pontos, erradas = jogar_fase(fase["palavras"])
 
     print(f"\nFim da fase! Pontuação: {pontos}")
+
+    if erradas:
+        print("\nPara revisar:")
+        for palavra in erradas:
+            print(f"- {palavra['dica']} -> {palavra['resposta']}")
 
     if pontos >= minimo:
         progresso[chave] = fase_atual + 1
         salvar_progresso(progresso)
-        print("Parabéns, você passou de fase!")
+        print("\nParabéns, você passou de fase!")
     else:
-        print(f"Faltaram {minimo - pontos} pontos. Tente de novo!")
+        print(f"\nFaltaram {minimo - pontos} pontos. Tente de novo!")
 
 
 if __name__ == "__main__":

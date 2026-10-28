@@ -8,8 +8,7 @@
           "fases": [
             {
               "numero": 1,
-              "grade": "grade_teste.json",
-              "pontos_minimos": 30,
+              "pontos_minimos": 50,
               "palavras": [
                 {"resposta": "BUG", "dica": "Erro no software"},
                 {"resposta": "UML", "dica": "Linguagem de modelagem visual de sistemas"},
@@ -17,7 +16,26 @@
                 {"resposta": "SCRUM", "dica": "Framework ágil muito usado em equipes"},
                 {"resposta": "SPRINT", "dica": "Ciclo curto de trabalho no Scrum"},
                 {"resposta": "CODIGO", "dica": "Texto escrito pelo programador"},
-                {"resposta": "REQUISITO", "dica": "Necessidade que o software deve atender"}
+                {"resposta": "REQUISITO", "dica": "Necessidade que o software deve atender"},
+                {"resposta": "AGIL", "dica": "Tipo de metodologia que entrega o software em partes curtas"},
+                {"resposta": "BACKLOG", "dica": "Lista priorizada de tudo que precisa ser feito no produto"},
+                {"resposta": "DEPLOY", "dica": "Publicação do software em um ambiente de uso"}
+              ]
+            },
+            {
+              "numero": 2,
+              "pontos_minimos": 50,
+              "palavras": [
+                {"resposta": "CLASSE", "dica": "Molde que define atributos e métodos na orientação a objetos"},
+                {"resposta": "OBJETO", "dica": "Instância criada a partir de uma classe"},
+                {"resposta": "HERANCA", "dica": "Mecanismo em que uma classe aproveita características de outra"},
+                {"resposta": "METODO", "dica": "Função que pertence a uma classe"},
+                {"resposta": "GIT", "dica": "Sistema de controle de versão mais usado"},
+                {"resposta": "COMMIT", "dica": "Registro de uma alteração no histórico do Git"},
+                {"resposta": "BRANCH", "dica": "Ramificação do código para trabalhar sem afetar a versão principal"},
+                {"resposta": "KANBAN", "dica": "Método visual com colunas como a fazer, fazendo e feito"},
+                {"resposta": "ARQUITETURA", "dica": "Estrutura geral e organização dos componentes de um sistema"},
+                {"resposta": "REFATORAR", "dica": "Melhorar a estrutura do código sem mudar o que ele faz"}
               ]
             }
           ]
