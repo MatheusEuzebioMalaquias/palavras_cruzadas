@@ -1,6 +1,6 @@
 from src.carregador import carregar_dados
 from src.menu import escolher
-from src.modo_dicas import jogar_fase
+from src.modo_dicas import jogar_fase, revisar
 from src.progresso import carregar_progresso, salvar_progresso
 
 
@@ -48,18 +48,21 @@ def main():
 
     print(f"\nFim da fase! Pontuação: {pontos}")
 
+    if pontos >= minimo:
+        progresso[chave] = fase_atual + 1
+        salvar_progresso(progresso)
+        print("Parabéns, você passou de fase!")
+    else:
+        print(f"Faltaram {minimo - pontos} pontos. Tente de novo!")
+
     if erradas:
         print("\nPara revisar:")
         for palavra in erradas:
             print(f"- {palavra['dica']} -> {palavra['resposta']}")
 
-    if pontos >= minimo:
-        progresso[chave] = fase_atual + 1
-        salvar_progresso(progresso)
-        print("\nParabéns, você passou de fase!")
-    else:
-        print(f"\nFaltaram {minimo - pontos} pontos. Tente de novo!")
-
-
+        resposta = input("\nQuer revisar agora? (s/n): ")
+        if resposta.strip().lower() == "s":
+            revisar(erradas)
+            
 if __name__ == "__main__":
     main()
