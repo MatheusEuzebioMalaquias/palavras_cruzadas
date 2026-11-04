@@ -10,16 +10,25 @@ def carregar_dados():
 
     for arquivo in sorted(PASTA_CONTEUDO.rglob("*.json")):
         with open(arquivo, encoding="utf-8") as f:
-            assunto = json.load(f)
+            conteudo = json.load(f)
 
-        topicos.setdefault(assunto["topico"], []).append(
-            {"nome": assunto["assunto"], "fases": assunto["fases"]}
-        )
+        assuntos = topicos.setdefault(conteudo["topico"], {})
+        fases = assuntos.setdefault(conteudo["assunto"], [])
+        fases.extend(conteudo["fases"])
 
     return {
         "topicos": [
-            {"nome": nome, "assuntos": assuntos}
-            for nome, assuntos in topicos.items()
+            {
+                "nome": nome_topico,
+                "assuntos": [
+                    {
+                        "nome": nome_assunto,
+                        "fases": sorted(fases, key=lambda fase: fase["numero"]),
+                    }
+                    for nome_assunto, fases in assuntos.items()
+                ],
+            }
+            for nome_topico, assuntos in topicos.items()
         ]
     }
 

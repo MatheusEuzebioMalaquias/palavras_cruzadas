@@ -1,5 +1,22 @@
 {
   "topico": "Língua Portuguesa",
   "assunto": "Tipos Textuais",
-  "fases": []
+  "fases": [
+    {
+      "numero": 1,
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "NARRATIVO", "dica": "Tipo textual que conta fatos reais ou imaginários vividos por personagens, em um tempo e em um espaço", "dica_extra": "Tem enredo, com começo, conflito e desfecho"},
+        {"resposta": "DESCRITIVO", "dica": "Tipo textual que apresenta características de pessoas, objetos, lugares ou situações, como um retrato feito com palavras", "dica_extra": "Costuma ter muitos adjetivos"},
+        {"resposta": "INJUNTIVO", "dica": "Tipo textual que orienta o leitor a realizar uma ação, como acontece em receitas e manuais", "dica_extra": "Usa muito os verbos no imperativo"},
+        {"resposta": "EXPOSITIVO", "dica": "Tipo textual que apresenta e explica informações sobre um assunto, sem a intenção principal de convencer", "dica_extra": "Verbetes de enciclopédia e textos didáticos são exemplos"},
+        {"resposta": "ARGUMENTATIVO", "dica": "Tipo textual que defende um ponto de vista com argumentos para convencer o leitor", "dica_extra": "A redação do Enem segue este tipo, na forma dissertativa"},
+        {"resposta": "GENERO", "dica": "Forma concreta que o texto assume na comunicação, como notícia, carta e receita", "dica_extra": "Diferente da tipologia, ele varia conforme a situação social em que o texto circula"},
+        {"resposta": "NARRADOR", "dica": "Voz que conta os fatos de uma história", "dica_extra": "Pode participar da história ou apenas observá-la"},
+        {"resposta": "ENREDO", "dica": "Sequência de acontecimentos de uma história, organizada por começo, conflito e desfecho", "dica_extra": "Também é chamado de trama"},
+        {"resposta": "COESAO", "dica": "Ligação entre as partes de um texto, feita por conectivos, pronomes e outros recursos da língua", "dica_extra": "Palavras como portanto, mas e porque ajudam a produzi-la"},
+        {"resposta": "COERENCIA", "dica": "Relação lógica entre as ideias de um texto, que faz com que ele tenha sentido", "dica_extra": "Um texto pode ter conectivos e, mesmo assim, não ter esta qualidade se as ideias se contradisserem"}
+      ]
+    }
+  ]
 }
