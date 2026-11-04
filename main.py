@@ -43,6 +43,10 @@ def main():
 
     minimo = fase["pontos_minimos"]
     print(f"\nFase {fase['numero']}: mínimo de {minimo} pontos para avançar")
+    
+    tema = fase.get("tema")
+    if tema:
+        print(f"Tema: {tema}")
 
     pontos, erradas = jogar_fase(fase["palavras"])
 

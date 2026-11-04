@@ -1,21 +1,175 @@
 {
   "topico": "Língua Portuguesa",
-  "assunto": "Tipos Textuais",
+  "assunto": "Trilha de Português",
   "fases": [
     {
       "numero": 1,
+      "tema": "Tipologia textual",
       "pontos_minimos": 50,
       "palavras": [
-        {"resposta": "NARRATIVO", "dica": "Tipo textual que conta fatos reais ou imaginários vividos por personagens, em um tempo e em um espaço", "dica_extra": "Tem enredo, com começo, conflito e desfecho"},
-        {"resposta": "DESCRITIVO", "dica": "Tipo textual que apresenta características de pessoas, objetos, lugares ou situações, como um retrato feito com palavras", "dica_extra": "Costuma ter muitos adjetivos"},
-        {"resposta": "INJUNTIVO", "dica": "Tipo textual que orienta o leitor a realizar uma ação, como acontece em receitas e manuais", "dica_extra": "Usa muito os verbos no imperativo"},
-        {"resposta": "EXPOSITIVO", "dica": "Tipo textual que apresenta e explica informações sobre um assunto, sem a intenção principal de convencer", "dica_extra": "Verbetes de enciclopédia e textos didáticos são exemplos"},
-        {"resposta": "ARGUMENTATIVO", "dica": "Tipo textual que defende um ponto de vista com argumentos para convencer o leitor", "dica_extra": "A redação do Enem segue este tipo, na forma dissertativa"},
-        {"resposta": "GENERO", "dica": "Forma concreta que o texto assume na comunicação, como notícia, carta e receita", "dica_extra": "Diferente da tipologia, ele varia conforme a situação social em que o texto circula"},
-        {"resposta": "NARRADOR", "dica": "Voz que conta os fatos de uma história", "dica_extra": "Pode participar da história ou apenas observá-la"},
-        {"resposta": "ENREDO", "dica": "Sequência de acontecimentos de uma história, organizada por começo, conflito e desfecho", "dica_extra": "Também é chamado de trama"},
-        {"resposta": "COESAO", "dica": "Ligação entre as partes de um texto, feita por conectivos, pronomes e outros recursos da língua", "dica_extra": "Palavras como portanto, mas e porque ajudam a produzi-la"},
-        {"resposta": "COERENCIA", "dica": "Relação lógica entre as ideias de um texto, que faz com que ele tenha sentido", "dica_extra": "Um texto pode ter conectivos e, mesmo assim, não ter esta qualidade se as ideias se contradisserem"}
+        {"resposta": "NARRATIVO", "dica": "Tipo textual que conta uma sequência de acontecimentos vividos por personagens, em determinado tempo e lugar", "dica_extra": "Costuma ter narrador, enredo, personagens, tempo e espaço"},
+        {"resposta": "DESCRITIVO", "dica": "Tipo textual que apresenta as características de pessoas, objetos, lugares ou situações, como um retrato feito com palavras", "dica_extra": "Responde à pergunta: como é?"},
+        {"resposta": "INJUNTIVO", "dica": "Tipo textual que orienta o leitor a realizar uma ação, como em manuais de instruções e receitas", "dica_extra": "Também é chamado de instrucional"},
+        {"resposta": "EXPOSITIVO", "dica": "Um dos dois tipos dissertativos: apresenta e explica informações sobre um assunto, sem a intenção principal de convencer", "dica_extra": "Verbetes de enciclopédia e textos didáticos são exemplos"},
+        {"resposta": "ARGUMENTATIVO", "dica": "Um dos dois tipos dissertativos: defende um ponto de vista com razões para convencer o leitor", "dica_extra": "A redação do Enem segue este tipo"},
+        {"resposta": "GENERO", "dica": "Forma concreta que o texto assume em uma situação de comunicação, como notícia, carta e receita", "dica_extra": "Um mesmo tipo textual pode aparecer em vários deles"},
+        {"resposta": "TIPOLOGIA", "dica": "Classificação dos textos pela estrutura e pela finalidade, em categorias como narrar, descrever e instruir", "dica_extra": "Não deve ser confundida com a classificação por situação de uso, como notícia e carta"},
+        {"resposta": "TESE", "dica": "Ideia central que o autor defende em um texto para convencer o leitor", "dica_extra": "Costuma aparecer na introdução e ser sustentada ao longo do texto"},
+        {"resposta": "IMPERATIVO", "dica": "Modo verbal usado para dar ordens, conselhos e instruções", "dica_extra": "Em 'misture os ingredientes', o verbo está neste modo"},
+        {"resposta": "PRETERITO", "dica": "Tempo verbal que indica ação já ocorrida, predominante em textos que contam fatos", "dica_extra": "O perfeito e o imperfeito são dois dos seus tipos"}
+      ]
+    },
+    {
+      "numero": 2,
+      "tema": "Classes de palavras",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "SUBSTANTIVO", "dica": "Classe de palavras que dá nome a seres, objetos, lugares, sentimentos e ideias", "dica_extra": "Pode ser comum ou próprio"},
+        {"resposta": "ADJETIVO", "dica": "Classe de palavras que atribui qualidade, estado ou característica ao nome", "dica_extra": "Em 'casa antiga', a palavra 'antiga' pertence a esta classe"},
+        {"resposta": "ARTIGO", "dica": "Classe de palavras que antecede o nome para defini-lo ou indefini-lo", "dica_extra": "Pode ser definido (o, a) ou indefinido (um, uma)"},
+        {"resposta": "NUMERAL", "dica": "Classe de palavras que indica quantidade ou posição em uma sequência", "dica_extra": "Cardinais, ordinais, fracionários e multiplicativos são seus tipos"},
+        {"resposta": "PRONOME", "dica": "Classe de palavras que substitui ou acompanha o nome, indicando a pessoa do discurso", "dica_extra": "Eu, tu, ele e nós são exemplos da espécie pessoal"},
+        {"resposta": "VERBO", "dica": "Classe de palavras que indica ação, estado ou fenômeno da natureza e varia em tempo, modo e pessoa", "dica_extra": "Pode ser flexionado nas três conjugações: -ar, -er e -ir"},
+        {"resposta": "ADVERBIO", "dica": "Classe de palavras invariável que expressa circunstâncias como tempo, lugar, modo e intensidade", "dica_extra": "Em 'ele chegou cedo', a palavra 'cedo' pertence a esta classe"},
+        {"resposta": "PREPOSICAO", "dica": "Classe de palavras invariável que liga termos da frase, estabelecendo relação entre eles", "dica_extra": "De, em, para e com são exemplos"},
+        {"resposta": "CONJUNCAO", "dica": "Classe de palavras invariável que liga trechos de uma frase ou frases entre si", "dica_extra": "Mas, e, porque e embora são exemplos"},
+        {"resposta": "INTERJEICAO", "dica": "Classe de palavras que exprime emoção, sensação ou chamamento de forma súbita", "dica_extra": "Ufa!, Ai! e Psiu! são exemplos"}
+      ]
+    },
+    {
+      "numero": 3,
+      "tema": "Acentuação gráfica",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "OXITONA", "dica": "Palavra cuja sílaba mais forte é a última, como sofá, café e jacaré", "dica_extra": "Recebe acento quando termina em a, e ou o (seguidos ou não de s) e em em ou ens"},
+        {"resposta": "PAROXITONA", "dica": "Palavra cuja sílaba mais forte é a penúltima, a posição mais comum em português", "dica_extra": "Recebe acento, entre outros casos, quando termina em l ou r, como em 'fácil' e 'caráter'"},
+        {"resposta": "PROPAROXITONA", "dica": "Palavra cuja sílaba mais forte é a antepenúltima; todas elas recebem acento gráfico", "dica_extra": "Exemplos: lâmpada, médico e pássaro"},
+        {"resposta": "TONICA", "dica": "Adjetivo que qualifica a sílaba pronunciada com mais força em uma palavra", "dica_extra": "Seu oposto é átona"},
+        {"resposta": "MONOSSILABO", "dica": "Palavra de uma única sílaba, como pé, só e já", "dica_extra": "Em 'pá', 'dê' e 'só', o acento aparece por uma regra própria desse grupo"},
+        {"resposta": "HIATO", "dica": "Encontro de duas vogais que ficam em sílabas separadas, como em sa-í-da e ju-í-zo", "dica_extra": "Em 'saída', o i recebe acento por formar este encontro com a vogal anterior"},
+        {"resposta": "DITONGO", "dica": "Encontro de uma vogal e uma semivogal na mesma sílaba, como em pai e céu", "dica_extra": "Os abertos éi, éu e ói recebem acento, como em 'chapéu' e 'herói'"},
+        {"resposta": "AGUDO", "dica": "Acento gráfico que indica vogal aberta ou sílaba mais forte, como em 'café'", "dica_extra": "Seu traço é inclinado para a direita"},
+        {"resposta": "CIRCUNFLEXO", "dica": "Acento gráfico que indica vogal fechada, como em 'você' e 'avô'", "dica_extra": "Seu símbolo lembra um chapeuzinho"},
+        {"resposta": "DIFERENCIAL", "dica": "Acento que distingue palavras iguais na escrita, como em 'pôr' (verbo) e 'por' (preposição)", "dica_extra": "A maioria desses casos deixou de existir na reforma de 1990, mas 'pôr' e 'pôde' foram mantidos"}
+      ]
+    },
+    {
+      "numero": 4,
+      "tema": "Ortografia oficial",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "ORTOGRAFIA", "dica": "Parte da gramática que define a forma correta de escrever as palavras", "dica_extra": "O nome vem do grego e indica escrita correta"},
+        {"resposta": "ACORDO", "dica": "Tratado assinado em 1990 que unificou a escrita dos países de língua portuguesa e passou a valer no Brasil em 2009", "dica_extra": "Tornou-se obrigatório no Brasil em 2016, após um período de convivência com as regras antigas"},
+        {"resposta": "ALFABETO", "dica": "Conjunto ordenado de letras de uma língua; o português tem 26 delas", "dica_extra": "O k, o w e o y passaram a fazer parte dele oficialmente"},
+        {"resposta": "HIFEN", "dica": "Sinal gráfico em forma de traço curto usado em palavras como 'guarda-chuva' e 'amá-lo'", "dica_extra": "Não deve ser confundido com um traço mais longo, usado para marcar falas"},
+        {"resposta": "PREFIXO", "dica": "Elemento colocado antes do radical que modifica o sentido da palavra, como em 'infeliz'", "dica_extra": "Anti, super e sub são exemplos"},
+        {"resposta": "SUFIXO", "dica": "Elemento colocado depois do radical que forma novas palavras, como o -mente em 'felizmente'", "dica_extra": "Em 'florista', o -ista é um exemplo"},
+        {"resposta": "DIGRAFO", "dica": "Duas letras que representam um único som, como em 'chave', 'carro' e 'filho'", "dica_extra": "O lh, o nh e o ss são outros exemplos"},
+        {"resposta": "TREMA", "dica": "Sinal gráfico de dois pontinhos sobre o u, extinto da escrita do português, exceto em nomes estrangeiros", "dica_extra": "Aparecia em palavras como 'lingüiça' e 'freqüência'"},
+        {"resposta": "ACENTUACAO", "dica": "Uso de sinais sobre as vogais para marcar a pronúncia; mudou em 'ideia' e 'heroico', que deixaram de levá-los", "dica_extra": "É estudada em detalhe nas regras das palavras com a sílaba mais forte na última, na penúltima ou na antepenúltima posição"},
+        {"resposta": "COMPOSICAO", "dica": "Processo de formar uma palavra nova pela união de dois radicais, como em 'guarda-chuva' e 'planalto'", "dica_extra": "Pode ocorrer por justaposição ou por aglutinação"}
+      ]
+    },
+    {
+      "numero": 5,
+      "tema": "Pontuação",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "VIRGULA", "dica": "Sinal de pontuação que indica pausa breve e separa elementos como itens de uma lista e termos deslocados", "dica_extra": "Não se usa para separar o termo de que se fala do verbo que o acompanha"},
+        {"resposta": "PONTO", "dica": "Sinal de pontuação que encerra frases declarativas e marca o fim de um período", "dica_extra": "Também pode aparecer em abreviaturas, como 'etc.'"},
+        {"resposta": "TRAVESSAO", "dica": "Sinal de pontuação em traço longo, usado para indicar a fala de personagens e para isolar trechos", "dica_extra": "É mais longo que o traço usado em palavras compostas"},
+        {"resposta": "PARENTESES", "dica": "Sinais duplos que isolam informações acessórias ou explicações dentro do texto", "dica_extra": "Têm formato curvo"},
+        {"resposta": "ASPAS", "dica": "Sinais duplos usados para destacar palavras estrangeiras, ironias e trechos reproduzidos de outras fontes", "dica_extra": "Podem ser simples ou duplas"},
+        {"resposta": "VOCATIVO", "dica": "Termo que chama ou interpela o interlocutor e é isolado dos demais, como em 'Maria, venha cá'", "dica_extra": "Não faz parte nem do que se diz sobre alguém, nem de quem pratica a ação"},
+        {"resposta": "APOSTO", "dica": "Termo que explica ou especifica outro termo da frase e costuma vir isolado, como em 'Brasília, capital do Brasil, é planejada'", "dica_extra": "Em 'Machado de Assis, o Bruxo do Cosme Velho', a expressão final exerce esta função"},
+        {"resposta": "ENUMERACAO", "dica": "Sequência de elementos de mesma função em uma frase, como 'comprei pão, leite e café'", "dica_extra": "O último elemento costuma vir ligado pela palavra 'e'"},
+        {"resposta": "ELIPSE", "dica": "Omissão de um termo que pode ser facilmente identificado, como em 'Eu gosto de café; ele, de chá'", "dica_extra": "Na frase de exemplo, a pontuação marca a ausência do verbo no segundo trecho"},
+        {"resposta": "CITACAO", "dica": "Reprodução de palavras de outra pessoa ou de outro texto, geralmente destacada na escrita", "dica_extra": "Pode ser direta, com as palavras idênticas, ou indireta, com as ideias reformuladas"}
+      ]
+    },
+    {
+      "numero": 6,
+      "tema": "Significação das palavras",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "SINONIMO", "dica": "Palavra de sentido semelhante ao de outra, como 'rápido' e 'veloz'", "dica_extra": "O nome vem do grego e quer dizer 'com o mesmo nome'"},
+        {"resposta": "ANTONIMO", "dica": "Palavra de sentido oposto ao de outra, como 'bom' e 'mau'", "dica_extra": "'Alto' e 'baixo' formam um par dele"},
+        {"resposta": "HOMONIMO", "dica": "Palavra com a mesma grafia ou pronúncia de outra, mas com significado diferente, como 'manga' (fruta) e 'manga' (de camisa)", "dica_extra": "Dependendo da grafia e do som, pode ser classificado em dois tipos"},
+        {"resposta": "PARONIMO", "dica": "Palavra de grafia e pronúncia parecidas com as de outra, mas de sentido diferente, como 'emigrar' e 'imigrar'", "dica_extra": "'Eminente' e 'iminente' são outro par comum em provas"},
+        {"resposta": "HOMOGRAFO", "dica": "Palavra escrita da mesma forma que outra, mas pronunciada de modo diferente, como 'jogo' (substantivo) e 'jogo' (verbo)", "dica_extra": "'Sede' (vontade de beber) e 'sede' (local) são um exemplo"},
+        {"resposta": "HOMOFONO", "dica": "Palavra pronunciada igual à de outra, mas escrita de forma diferente, como 'cela' e 'sela'", "dica_extra": "'Concerto' e 'conserto' são um exemplo"},
+        {"resposta": "DENOTACAO", "dica": "Uso da palavra em seu sentido literal, objetivo, como aparece no dicionário", "dica_extra": "Em 'ele cortou o pão', o verbo está nesse sentido"},
+        {"resposta": "CONOTACAO", "dica": "Uso da palavra em sentido figurado, que vai além do significado literal", "dica_extra": "Em 'ele tem um coração de pedra', aparece este sentido"},
+        {"resposta": "METAFORA", "dica": "Figura de linguagem que compara dois elementos sem usar palavras comparativas, como em 'o tempo é um rio'", "dica_extra": "A comparação feita com a palavra 'como' é outra figura, mais explícita"},
+        {"resposta": "CONTEXTO", "dica": "Conjunto de elementos do entorno de uma palavra ou frase que ajuda a definir seu sentido", "dica_extra": "Uma palavra como 'banco' só tem sentido definido graças a ele"}
+      ]
+    },
+    {
+      "numero": 7,
+      "tema": "Interpretação de texto (conceitos)",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "INFERENCIA", "dica": "Conclusão a que o leitor chega a partir de pistas do texto, mesmo sem a informação estar escrita", "dica_extra": "Concluir que alguém não levou guarda-chuva ao ler 'Choveu e ele saiu molhado' é um exemplo"},
+        {"resposta": "EXPLICITO", "dica": "Diz-se da informação escrita de forma clara e direta no texto", "dica_extra": "O leitor a encontra sem precisar deduzir nada"},
+        {"resposta": "IMPLICITO", "dica": "Diz-se da informação que não está escrita, mas pode ser percebida pelo leitor", "dica_extra": "Exige que o leitor leia nas entrelinhas"},
+        {"resposta": "PARAFRASE", "dica": "Reescrita de um trecho com outras palavras, mantendo o mesmo sentido", "dica_extra": "Muitas questões de prova pedem a identificação da correta"},
+        {"resposta": "COESAO", "dica": "Ligação entre as partes do texto por meio de elementos da língua, como conectivos e pronomes", "dica_extra": "Palavras como 'portanto', 'mas' e 'porque' ajudam a produzi-la"},
+        {"resposta": "COERENCIA", "dica": "Relação lógica entre as ideias do texto, que faz com que ele tenha sentido", "dica_extra": "Um texto com conectivos pode não tê-la se as ideias se contradisserem"},
+        {"resposta": "PRESSUPOSTO", "dica": "Informação tomada como verdadeira por uma frase, mesmo sem ser dita diretamente", "dica_extra": "Em 'Ele parou de fumar', está presente a ideia de que ele fumava"},
+        {"resposta": "SUBENTENDIDO", "dica": "Sentido insinuado pelo autor, que ele pode negar ter afirmado, pois não foi dito de forma direta", "dica_extra": "Em 'Que calor aqui!', pode haver o pedido para abrir a janela"},
+        {"resposta": "TEMA", "dica": "Assunto geral sobre o qual um texto trata", "dica_extra": "Costuma ser resumido em uma palavra ou expressão curta, como 'violência urbana'"},
+        {"resposta": "ARGUMENTO", "dica": "Razão ou prova apresentada para sustentar uma ideia ou convencer o leitor", "dica_extra": "Dados, exemplos e citações podem desempenhar esse papel"}
+      ]
+    },
+    {
+      "numero": 8,
+      "tema": "Crase",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "CRASE", "dica": "Junção da preposição a com o artigo definido a, que se marca na escrita com um acento", "dica_extra": "Em 'Vou à escola', ela ocorre"},
+        {"resposta": "GRAVE", "dica": "Acento gráfico em forma de traço inclinado para a esquerda, usado em 'à'", "dica_extra": "Seu símbolo é o inverso do acento de 'café'"},
+        {"resposta": "FUSAO", "dica": "Junção de dois elementos em um só, como ocorre entre a preposição a e o artigo a", "dica_extra": "Em 'àquele', ela acontece entre a preposição e o início do pronome"},
+        {"resposta": "FEMININO", "dica": "Gênero das palavras como 'casa' e 'escola', que aceitam o artigo a", "dica_extra": "Antes de palavras do gênero oposto, em geral, não há o acento"},
+        {"resposta": "LOCUCAO", "dica": "Conjunto de palavras que funciona como uma só, como 'à noite', 'à tarde' e 'às vezes'", "dica_extra": "Em 'à vista', 'à toa' e 'às pressas', o acento aparece sempre"},
+        {"resposta": "FACULTATIVA", "dica": "Diz-se da situação em que o acento pode ser usado ou omitido sem prejuízo, como antes de nomes próprios de mulheres e de pronomes possessivos", "dica_extra": "Em 'Entreguei o livro à Maria' e 'Entreguei o livro a Maria', as duas formas são aceitas"},
+        {"resposta": "HORAS", "dica": "Palavra subentendida depois do número em 'O jogo começa às 20', que explica o acento antes dele", "dica_extra": "Indicam o momento do dia no relógio"},
+        {"resposta": "DEMONSTRATIVO", "dica": "Pronome que indica posição de seres no espaço, no tempo ou no discurso, como 'aquele' e 'aquela'; com a preposição a, forma 'àquele'", "dica_extra": "Em 'Refiro-me àquela casa', ele aparece"},
+        {"resposta": "PROIBICAO", "dica": "Situação em que o acento não pode ser usado, como antes de verbos, de palavras do gênero oposto ao das que aceitam o artigo a e de pronomes pessoais", "dica_extra": "'Vou a pé' e 'Ela começou a ler' são exemplos"},
+        {"resposta": "OBRIGATORIA", "dica": "Situação em que o acento é exigido, como em 'Fui à escola'", "dica_extra": "Ocorre quando o termo anterior pede a preposição a e a palavra seguinte aceita o artigo a"}
+      ]
+    },
+    {
+      "numero": 9,
+      "tema": "Sintaxe",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "SUJEITO", "dica": "Termo sobre o qual se declara algo e com o qual o verbo se ajusta", "dica_extra": "Em 'Os alunos chegaram', 'os alunos' exercem esta função"},
+        {"resposta": "PREDICADO", "dica": "Parte da frase que contém o verbo e diz algo sobre aquilo de que se fala", "dica_extra": "Pode ser verbal, nominal ou verbo-nominal"},
+        {"resposta": "ORACAO", "dica": "Frase ou parte de frase organizada em torno de um verbo", "dica_extra": "Em 'Ele disse que viria', há duas dessas estruturas"},
+        {"resposta": "PERIODO", "dica": "Frase com um ou mais verbos e sentido completo, que termina com sinal de pontuação final", "dica_extra": "Pode ser simples ou composto"},
+        {"resposta": "COMPLEMENTO", "dica": "Termo que completa o sentido de um verbo ou de um nome", "dica_extra": "Em 'Comprei um livro', 'um livro' exerce esta função"},
+        {"resposta": "ADJUNTO", "dica": "Termo acessório que modifica um nome ou um verbo, sem ser indispensável ao sentido", "dica_extra": "Pode ser adnominal ou adverbial"},
+        {"resposta": "COORDENACAO", "dica": "Relação entre trechos de sentido completo que se ligam sem depender um do outro, por palavras como 'e', 'mas' e 'ou'", "dica_extra": "Cada trecho continua fazendo sentido sozinho"},
+        {"resposta": "SUBORDINACAO", "dica": "Relação em que um trecho depende do outro para ter sentido completo", "dica_extra": "Em 'Espero que você venha', a parte final depende da inicial"},
+        {"resposta": "OCULTO", "dica": "Diz-se do termo que não está escrito na frase, mas é identificado pela forma do verbo, como em 'Cheguei cedo'", "dica_extra": "Também é chamado de desinencial ou elíptico"},
+        {"resposta": "INDETERMINADO", "dica": "Diz-se do termo cuja identidade não se pode ou não se quer revelar, como em 'Bateram à porta'", "dica_extra": "O verbo fica na terceira pessoa do plural ou acompanhado da palavra 'se'"}
+      ]
+    },
+    {
+      "numero": 10,
+      "tema": "Concordância",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "CONCORDANCIA", "dica": "Relação de harmonia entre palavras de uma frase, em que umas se ajustam às formas das outras", "dica_extra": "Em 'Os alunos estudaram', ela ocorre entre o verbo e o termo a que se refere"},
+        {"resposta": "NOMINAL", "dica": "Tipo de ajuste em que artigos, adjetivos e numerais acompanham o nome a que se referem", "dica_extra": "Em 'as casas bonitas', todas as palavras se ajustam ao substantivo 'casas'"},
+        {"resposta": "VERBAL", "dica": "Tipo de ajuste em que o verbo se adapta ao termo com que se relaciona na oração", "dica_extra": "Em 'Nós estudamos', o verbo reflete a forma de quem pratica a ação"},
+        {"resposta": "NUMERO", "dica": "Categoria gramatical que indica se há um ou mais de um ser", "dica_extra": "Em 'livro' e 'livros', ela é que varia"},
+        {"resposta": "PESSOA", "dica": "Categoria do verbo que indica quem fala, com quem se fala ou de quem se fala", "dica_extra": "Primeira, segunda e terceira são suas possibilidades"},
+        {"resposta": "COMPOSTO", "dica": "Diz-se do sujeito formado por mais de um núcleo, como em 'Ana e Pedro chegaram'", "dica_extra": "Seu oposto é o simples"},
+        {"resposta": "SINGULAR", "dica": "Forma do nome ou do verbo que se refere a um só ser", "dica_extra": "Em 'o aluno', o nome está nesta forma"},
+        {"resposta": "PLURAL", "dica": "Forma do nome ou do verbo que se refere a mais de um ser", "dica_extra": "Em 'os alunos', o nome está nesta forma"},
+        {"resposta": "COLETIVO", "dica": "Substantivo que, mesmo na forma de um só, nomeia um conjunto de seres, como 'cardume' e 'rebanho'", "dica_extra": "Em 'A multidão gritou', o verbo se ajusta a ele"},
+        {"resposta": "ANEXO", "dica": "Palavra que se ajusta ao nome a que se refere em 'Seguem ____ as fotos', mas fica invariável na expressão 'em ____'", "dica_extra": "Está ligada a documentos enviados junto com outro"}
       ]
     }
   ]
