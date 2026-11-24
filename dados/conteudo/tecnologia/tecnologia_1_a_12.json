@@ -1,0 +1,210 @@
+{
+  "topico": "Tecnologia",
+  "assunto": "Trilha de Tecnologia",
+  "fases": [
+    {
+      "numero": 1,
+      "tema": "Fundamentos de computação",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "HARDWARE", "dica": "Parte física de um computador, formada por componentes que se podem tocar", "dica_extra": "Teclado, monitor e placa-mãe são exemplos"},
+        {"resposta": "SOFTWARE", "dica": "Conjunto de programas e instruções que fazem o computador executar tarefas", "dica_extra": "Sistemas operacionais e aplicativos são exemplos"},
+        {"resposta": "BIT", "dica": "Menor unidade de informação de um computador, com valor 0 ou 1", "dica_extra": "Oito deles formam uma unidade maior"},
+        {"resposta": "BYTE", "dica": "Unidade de medida da informação usada para expressar o tamanho de arquivos, formada por oito unidades menores", "dica_extra": "Quilo, mega e giga são prefixos que multiplicam esta unidade"},
+        {"resposta": "CPU", "dica": "Componente que executa as instruções dos programas e coordena as demais partes do computador", "dica_extra": "Também é chamada de processador"},
+        {"resposta": "RAM", "dica": "Memória de acesso rápido que guarda dados e programas em uso e perde o conteúdo quando o computador é desligado", "dica_extra": "Quanto mais dela, mais programas rodam ao mesmo tempo"},
+        {"resposta": "SSD", "dica": "Tipo de armazenamento sem partes móveis, feito de memória flash, mais rápido que o disco rígido tradicional", "dica_extra": "A sigla vem de Solid State Drive"},
+        {"resposta": "KERNEL", "dica": "Núcleo do sistema operacional, que faz a ponte entre os programas e as peças do computador", "dica_extra": "Linux é o nome do mais famoso dele"},
+        {"resposta": "BINARIO", "dica": "Sistema de numeração que usa apenas os algarismos 0 e 1", "dica_extra": "É a base de toda representação de dados no computador"},
+        {"resposta": "PERIFERICO", "dica": "Dispositivo ligado ao computador para entrada ou saída de dados, como teclado e impressora", "dica_extra": "Pode ser de entrada, de saída ou de entrada e saída"}
+      ]
+    },
+    {
+      "numero": 2,
+      "tema": "Redes e internet",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "IP", "dica": "Endereço numérico que identifica um dispositivo em uma rede", "dica_extra": "Existem as versões 4 e 6"},
+        {"resposta": "DNS", "dica": "Sistema que traduz nomes de sites em números que os computadores entendem", "dica_extra": "Funciona como uma agenda de contatos da internet"},
+        {"resposta": "HTTP", "dica": "Padrão usado pelo navegador para pedir e receber páginas dos sites", "dica_extra": "Sua versão segura tem um S no final"},
+        {"resposta": "TCP", "dica": "Padrão que garante a entrega ordenada e confiável dos dados na internet", "dica_extra": "Antes de enviar dados, estabelece uma conexão em três etapas, conhecida como aperto de mãos"},
+        {"resposta": "ROTEADOR", "dica": "Equipamento que encaminha pacotes de dados entre redes diferentes", "dica_extra": "Em casa, costuma distribuir o sinal da internet para os aparelhos"},
+        {"resposta": "SWITCH", "dica": "Equipamento que conecta dispositivos dentro de uma mesma rede restrita, enviando os dados só ao destino certo", "dica_extra": "Em inglês, a palavra significa interruptor"},
+        {"resposta": "LAN", "dica": "Rede de computadores restrita a uma área pequena, como uma casa ou um escritório", "dica_extra": "A sigla vem de Local Area Network"},
+        {"resposta": "PROTOCOLO", "dica": "Conjunto de regras que define como os dispositivos trocam informações em uma rede", "dica_extra": "Na comunicação digital, funciona como uma língua comum entre os dispositivos"},
+        {"resposta": "LATENCIA", "dica": "Tempo que um dado leva para ir de um ponto a outro da rede", "dica_extra": "É medida em milissegundos e muito observada em jogos online"},
+        {"resposta": "SERVIDOR", "dica": "Computador que fornece recursos, dados ou serviços a outros dispositivos da rede", "dica_extra": "Os dispositivos que fazem pedidos a ele são chamados de clientes"}
+      ]
+    },
+    {
+      "numero": 3,
+      "tema": "Lógica de programação",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "ALGORITMO", "dica": "Sequência finita de passos bem definidos para resolver um problema", "dica_extra": "Uma receita de bolo é uma analogia comum"},
+        {"resposta": "VARIAVEL", "dica": "Espaço de memória com nome, que guarda um valor que pode mudar durante o programa", "dica_extra": "Em 'idade = 24', a palavra 'idade' é o nome dela"},
+        {"resposta": "CONSTANTE", "dica": "Valor guardado com nome que permanece fixo durante todo o programa, como o número pi", "dica_extra": "Por convenção, em muitas linguagens o nome vai em letras maiúsculas"},
+        {"resposta": "CONDICAO", "dica": "Expressão que resulta em verdadeiro ou falso e decide se um trecho do código será executado", "dica_extra": "Estruturas como if e else dependem dela"},
+        {"resposta": "LACO", "dica": "Estrutura que repete um bloco de código enquanto uma regra for atendida ou por um número de vezes", "dica_extra": "For e while são exemplos, e em inglês ele é chamado de loop"},
+        {"resposta": "FUNCAO", "dica": "Bloco de código com nome, que recebe dados, executa uma tarefa e pode devolver um resultado", "dica_extra": "Em Python, é criada com a palavra def"},
+        {"resposta": "PARAMETRO", "dica": "Nome listado entre parênteses na criação de um bloco de código reutilizável, que recebe o valor informado na chamada", "dica_extra": "O valor que de fato é passado na chamada costuma ser chamado de argumento"},
+        {"resposta": "BOOLEANO", "dica": "Tipo de dado que só aceita dois valores: verdadeiro ou falso", "dica_extra": "Seu nome homenageia o matemático George Boole"},
+        {"resposta": "FLUXOGRAMA", "dica": "Diagrama que representa os passos de um processo com símbolos geométricos e setas", "dica_extra": "O losango costuma indicar uma decisão"},
+        {"resposta": "RECURSAO", "dica": "Técnica em que um bloco de código chama a si mesmo até chegar a um caso que o faz parar", "dica_extra": "O cálculo do fatorial é um exemplo clássico"}
+      ]
+    },
+    {
+      "numero": 4,
+      "tema": "Python básico",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "PYTHON", "dica": "Linguagem de programação de alto nível, conhecida pela sintaxe simples e muito usada em dados e automação", "dica_extra": "O nome homenageia um grupo de humor britânico, e não a cobra"},
+        {"resposta": "STRING", "dica": "Tipo de dado usado para guardar texto, como nomes e frases", "dica_extra": "Em Python, vem entre aspas"},
+        {"resposta": "FLOAT", "dica": "Tipo de dado usado para números com parte decimal, como 3.14", "dica_extra": "O nome vem de ponto flutuante, em inglês"},
+        {"resposta": "LISTA", "dica": "Coleção ordenada e modificável de itens, escrita entre colchetes", "dica_extra": "Seus itens são acessados por posição, começando do zero"},
+        {"resposta": "TUPLA", "dica": "Coleção ordenada de itens que não pode ser alterada depois de criada", "dica_extra": "É escrita entre parênteses"},
+        {"resposta": "DICIONARIO", "dica": "Coleção que guarda pares de nome e valor, escrita entre chaves", "dica_extra": "Em vez da posição, a consulta é feita pelo nome associado ao valor"},
+        {"resposta": "IMPORT", "dica": "Palavra reservada usada para trazer um módulo ou biblioteca para dentro do programa", "dica_extra": "Em 'import json', ela traz uma ferramenta para ler arquivos JSON"},
+        {"resposta": "INDENTACAO", "dica": "Recuo no início das linhas que, em Python, define quais comandos pertencem a cada bloco", "dica_extra": "Costuma ser feita com quatro espaços"},
+        {"resposta": "PIP", "dica": "Gerenciador que instala bibliotecas e pacotes de Python", "dica_extra": "Em 'pip install flask', ele está em ação"},
+        {"resposta": "VENV", "dica": "Módulo do Python que cria ambientes virtuais isolados para cada projeto", "dica_extra": "A pasta oculta do projeto que guarda o ambiente leva um ponto na frente do seu nome"}
+      ]
+    },
+    {
+      "numero": 5,
+      "tema": "IA e automação",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "IA", "dica": "Sigla da área da computação que cria sistemas capazes de realizar tarefas que normalmente exigem inteligência humana", "dica_extra": "Em inglês, a sigla é AI"},
+        {"resposta": "MACHINE LEARNING", "dica": "Técnica em que sistemas aprendem padrões a partir de dados, sem receber regras explícitas para cada situação", "dica_extra": "Em português, também é chamado de aprendizado de máquina"},
+        {"resposta": "LLM", "dica": "Sigla de modelos de linguagem construídos com enormes volumes de texto, capazes de gerar e entender linguagem natural", "dica_extra": "A sigla vem de Large Language Model"},
+        {"resposta": "PROMPT", "dica": "Instrução ou pergunta escrita pelo usuário para orientar a resposta de um modelo generativo", "dica_extra": "Quanto mais claro e detalhado, melhor tende a ser a resposta"},
+        {"resposta": "CHATBOT", "dica": "Programa que simula conversas com pessoas por texto ou voz, como em atendimentos online", "dica_extra": "Pode funcionar com regras fixas ou com modelos mais avançados"},
+        {"resposta": "ALUCINACAO", "dica": "Resposta de um modelo generativo que parece convincente, mas contém informação inventada ou incorreta", "dica_extra": "É um dos motivos de ser preciso conferir o que a ferramenta responde"},
+        {"resposta": "TREINAMENTO", "dica": "Etapa em que um modelo ajusta seus parâmetros ao analisar muitos exemplos de dados", "dica_extra": "Acontece antes de o modelo ser colocado em uso"},
+        {"resposta": "AUTOMACAO", "dica": "Uso de tecnologia para executar tarefas repetitivas sem intervenção humana constante", "dica_extra": "Pode ser feita com scripts ou com ferramentas de integração entre sistemas"},
+        {"resposta": "RPA", "dica": "Sigla de robôs de software que imitam ações humanas em telas de sistemas, como clicar e copiar dados", "dica_extra": "Em inglês, o nome começa com Robotic"},
+        {"resposta": "WORKFLOW", "dica": "Sequência organizada de etapas e responsáveis que leva uma tarefa do início ao fim", "dica_extra": "Em português, costuma ser traduzido como fluxo de trabalho"}
+      ]
+    },
+    {
+      "numero": 6,
+      "tema": "Banco de dados e SQL",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "SQL", "dica": "Linguagem padrão usada para consultar e manipular dados em bancos relacionais", "dica_extra": "A sigla vem de Structured Query Language"},
+        {"resposta": "TABELA", "dica": "Estrutura do banco relacional que organiza dados em linhas e colunas", "dica_extra": "Cada linha dela é chamada de registro"},
+        {"resposta": "CHAVE", "dica": "Campo que identifica de forma única cada registro, ou liga um conjunto de dados a outro", "dica_extra": "Pode ser primária ou estrangeira"},
+        {"resposta": "SELECT", "dica": "Comando que escolhe quais colunas serão exibidas em uma consulta", "dica_extra": "Quase toda consulta começa com ele"},
+        {"resposta": "FROM", "dica": "Palavra que indica a origem dos dados em uma consulta", "dica_extra": "Em português, significa 'de'"},
+        {"resposta": "WHERE", "dica": "Cláusula que filtra os registros de acordo com uma condição", "dica_extra": "Em português, a tradução é 'onde'"},
+        {"resposta": "JOIN", "dica": "Cláusula que combina linhas de dois conjuntos de dados usando campos em comum", "dica_extra": "Os tipos INNER e LEFT são os mais comuns dele"},
+        {"resposta": "LIKE", "dica": "Operador que busca padrões em textos, usando curingas como % e _", "dica_extra": "Em inglês, a palavra significa 'como' ou 'parecido com'"},
+        {"resposta": "COUNT", "dica": "Função que conta quantas linhas ou valores existem em um resultado", "dica_extra": "É uma função de agregação, como a soma e a média"},
+        {"resposta": "DISTINCT", "dica": "Palavra que remove repetições, mostrando só valores diferentes no resultado", "dica_extra": "Em inglês, significa distinto ou diferente"}
+      ]
+    },
+    {
+      "numero": 7,
+      "tema": "Engenharia de Software I",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "BUG", "dica": "Defeito no código que faz o programa se comportar de forma diferente do esperado", "dica_extra": "Do inglês, a palavra significa inseto"},
+        {"resposta": "UML", "dica": "Linguagem padronizada de diagramas usada para modelar sistemas, como os de classes e de casos de uso", "dica_extra": "Em inglês, o nome da sigla começa com Unified"},
+        {"resposta": "TESTE", "dica": "Atividade que executa o software para encontrar defeitos e confirmar se ele atende ao que foi pedido", "dica_extra": "Pode ser unitário, de integração ou de aceitação"},
+        {"resposta": "SCRUM", "dica": "Framework ágil que organiza o trabalho em ciclos curtos, com papéis como Product Owner e reuniões diárias", "dica_extra": "O nome vem do rúgbi, esporte em que os jogadores se juntam para disputar a bola"},
+        {"resposta": "SPRINT", "dica": "Período fixo, geralmente de 1 a 4 semanas, em que a equipe ágil constrói um incremento do produto", "dica_extra": "Também é o nome de uma corrida curta e veloz"},
+        {"resposta": "CODIGO", "dica": "Conjunto de instruções escritas em uma linguagem de programação para o computador executar", "dica_extra": "É o que os programadores digitam em editores como o VS Code"},
+        {"resposta": "REQUISITO", "dica": "Descrição do que o sistema deve fazer ou de uma restrição que ele deve respeitar", "dica_extra": "Pode ser funcional ou não funcional"},
+        {"resposta": "AGIL", "dica": "Abordagem de desenvolvimento baseada em entregas frequentes e adaptação a mudanças, registrada em um manifesto de 2001", "dica_extra": "Sinônimo de rápido e flexível"},
+        {"resposta": "BACKLOG", "dica": "Lista ordenada por prioridade de tudo o que pode ser necessário no produto, mantida pelo Product Owner", "dica_extra": "Em inglês, significa acúmulo de coisas pendentes"},
+        {"resposta": "DEPLOY", "dica": "Etapa de colocar uma versão do software em funcionamento em um ambiente, como o de produção", "dica_extra": "Em inglês, significa implantar ou colocar em operação"}
+      ]
+    },
+    {
+      "numero": 8,
+      "tema": "Engenharia de Software II",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "CLASSE", "dica": "Molde que define atributos e comportamentos de elementos concretos criados a partir dele, conceito central da POO", "dica_extra": "Em Python, costuma ter nome começando com letra maiúscula, como Pessoa ou Carro"},
+        {"resposta": "OBJETO", "dica": "Elemento concreto criado a partir de um molde, com estado e comportamento próprios", "dica_extra": "Em Python, tudo é um desses"},
+        {"resposta": "HERANCA", "dica": "Princípio da POO em que uma estrutura reaproveita atributos e comportamentos de outra", "dica_extra": "Pense em filhos que recebem características dos pais"},
+        {"resposta": "METODO", "dica": "Função que pertence a uma estrutura da POO e descreve um comportamento dela", "dica_extra": "O __init__ do Python é um exemplo especial deste elemento"},
+        {"resposta": "GIT", "dica": "Sistema distribuído de controle de versão criado por Linus Torvalds", "dica_extra": "Seus comandos incluem pull, push e clone"},
+        {"resposta": "COMMIT", "dica": "Operação que grava um conjunto de alterações no histórico do repositório, com uma mensagem descritiva", "dica_extra": "Vem depois do add e antes do push"},
+        {"resposta": "BRANCH", "dica": "Linha independente de desenvolvimento que permite criar uma funcionalidade sem afetar a principal", "dica_extra": "Em inglês, significa ramo ou galho de árvore"},
+        {"resposta": "KANBAN", "dica": "Método visual que limita o trabalho em andamento usando colunas em um quadro, nascido no sistema Toyota", "dica_extra": "Palavra de origem japonesa ligada a cartões e sinais visuais"},
+        {"resposta": "ARQUITETURA", "dica": "Organização de alto nível de um sistema: seus componentes principais e como eles se relacionam", "dica_extra": "Camadas e microsserviços são exemplos de padrões dela"},
+        {"resposta": "REFATORAR", "dica": "Reestruturar o código existente para melhorar a legibilidade e a manutenção sem alterar o comportamento externo", "dica_extra": "No ciclo do TDD (vermelho, verde...), é o terceiro passo"}
+      ]
+    },
+    {
+      "numero": 9,
+      "tema": "Desenvolvimento web",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "HTML", "dica": "Linguagem de marcação que define a estrutura e o conteúdo das páginas da web", "dica_extra": "Usa elementos entre sinais de menor e maior, como p e h1"},
+        {"resposta": "CSS", "dica": "Linguagem que define a aparência das páginas, como cores, fontes e espaçamentos", "dica_extra": "O nome da sigla começa com Cascading"},
+        {"resposta": "JAVASCRIPT", "dica": "Linguagem que dá interatividade às páginas, como cliques que mudam o conteúdo sem recarregar", "dica_extra": "Apesar do nome, não tem relação direta com Java"},
+        {"resposta": "DOM", "dica": "Representação em forma de árvore dos elementos de uma página, que o código pode ler e modificar", "dica_extra": "A sigla vem de Document Object Model"},
+        {"resposta": "API", "dica": "Interface que permite a um sistema pedir dados ou serviços a outro, seguindo regras combinadas", "dica_extra": "A sigla vem de Application Programming Interface"},
+        {"resposta": "JSON", "dica": "Formato de texto leve para trocar dados, organizado em pares de nome e valor", "dica_extra": "É muito usado em arquivos de configuração e nas respostas de serviços da web"},
+        {"resposta": "REST", "dica": "Estilo de arquitetura para serviços web que usa os verbos do protocolo da web, como GET e POST", "dica_extra": "Cada recurso é identificado por um endereço próprio, chamado URL"},
+        {"resposta": "NAVEGADOR", "dica": "Programa que busca e exibe páginas da web, como Chrome, Firefox e Edge", "dica_extra": "Em inglês, é chamado de browser"},
+        {"resposta": "REQUISICAO", "dica": "Pedido enviado pelo cliente a um servidor da web para obter ou enviar dados", "dica_extra": "A resposta que volta do servidor traz um código de status, como 404"},
+        {"resposta": "RESPONSIVO", "dica": "Diz-se do layout que se adapta a telas de tamanhos diferentes, como celular e computador", "dica_extra": "Consultas de mídia ajudam a conseguir isso"}
+      ]
+    },
+    {
+      "numero": 10,
+      "tema": "Dados e BI",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "ETL", "dica": "Processo que extrai dados de várias fontes, transforma e carrega em um destino", "dica_extra": "A sigla vem de Extract, Transform, Load"},
+        {"resposta": "DASHBOARD", "dica": "Painel visual que reúne gráficos e indicadores para acompanhar o desempenho de um negócio", "dica_extra": "Em português, também é chamado de painel"},
+        {"resposta": "KPI", "dica": "Indicador-chave usado para medir se uma meta ou um objetivo está sendo atingido", "dica_extra": "A sigla vem de Key Performance Indicator"},
+        {"resposta": "DIMENSAO", "dica": "Tabela de contexto em um modelo analítico, com atributos como cliente, produto ou data", "dica_extra": "Descreve quem, o quê e quando em torno dos números analisados"},
+        {"resposta": "FATO", "dica": "Tabela central de um modelo analítico, que guarda as medidas numéricas, como vendas e quantidades", "dica_extra": "Costuma ser cercada pelas tabelas de contexto"},
+        {"resposta": "ESTRELA", "dica": "Modelo dimensional em que uma tabela central se liga diretamente a várias outras, formando esse desenho", "dica_extra": "O desenho lembra um astro com pontas"},
+        {"resposta": "LAKEHOUSE", "dica": "Arquitetura que une a flexibilidade de um data lake com a organização de um depósito analítico", "dica_extra": "Plataformas como Databricks e o Microsoft Fabric popularizaram essa abordagem"},
+        {"resposta": "DATA WAREHOUSE", "dica": "Repositório central que reúne dados tratados de várias fontes para análises e relatórios", "dica_extra": "Em português, é chamado de armazém de dados"},
+        {"resposta": "SNOWFLAKE", "dica": "Plataforma de dados em nuvem que separa o armazenamento do processamento e é muito usada para análises", "dica_extra": "O nome da empresa significa floco de neve em inglês"},
+        {"resposta": "POWER BI", "dica": "Ferramenta da Microsoft para criar relatórios e painéis interativos a partir de dados", "dica_extra": "Usa a linguagem DAX para criar medidas"}
+      ]
+    },
+    {
+      "numero": 11,
+      "tema": "Segurança da informação",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "CRIPTOGRAFIA", "dica": "Técnica que transforma dados em um formato ilegível para quem não possui o código de acesso", "dica_extra": "Pode ser simétrica ou assimétrica"},
+        {"resposta": "PHISHING", "dica": "Golpe que usa mensagens falsas para enganar a vítima e roubar dados ou senhas", "dica_extra": "O nome lembra a palavra pescaria em inglês"},
+        {"resposta": "FIREWALL", "dica": "Sistema que filtra o tráfego de rede e bloqueia conexões não autorizadas", "dica_extra": "Em inglês, significa parede de fogo"},
+        {"resposta": "MALWARE", "dica": "Termo geral para programas criados com intenção maliciosa, como vírus e trojans", "dica_extra": "Vem da junção de malicious e software, em inglês"},
+        {"resposta": "RANSOMWARE", "dica": "Tipo de programa malicioso que sequestra os arquivos da vítima e exige pagamento de resgate para liberá-los", "dica_extra": "O nome combina as palavras resgate e software, em inglês"},
+        {"resposta": "AUTENTICACAO", "dica": "Processo de confirmar que quem tenta acessar um sistema é realmente quem diz ser", "dica_extra": "Senhas, biometria e códigos enviados ao celular são formas dela"},
+        {"resposta": "CONFIDENCIALIDADE", "dica": "Princípio que garante que a informação só seja acessada por quem tem autorização", "dica_extra": "Faz parte de um trio clássico de princípios da segurança, e é a primeira palavra da sigla CID"},
+        {"resposta": "INTEGRIDADE", "dica": "Princípio que garante que a informação não seja alterada de forma indevida", "dica_extra": "Funções de hash ajudam a verificar se um arquivo foi modificado"},
+        {"resposta": "DISPONIBILIDADE", "dica": "Princípio que garante que a informação e os sistemas estejam acessíveis quando forem necessários", "dica_extra": "Ataques de negação de serviço, como o DDoS, atingem este princípio"},
+        {"resposta": "BACKUP", "dica": "Cópia de segurança dos dados, guardada para recuperá-los em caso de perda", "dica_extra": "A regra 3-2-1 recomenda três cópias, em duas mídias, com uma delas fora do local"}
+      ]
+    },
+    {
+      "numero": 12,
+      "tema": "Nuvem e DevOps",
+      "pontos_minimos": 50,
+      "palavras": [
+        {"resposta": "NUVEM", "dica": "Modelo em que recursos de computação são acessados pela internet, sob demanda, em vez de ficarem em equipamentos locais", "dica_extra": "AWS, Azure e Google Cloud são provedores dela"},
+        {"resposta": "DEVOPS", "dica": "Cultura e conjunto de práticas que integram as equipes de desenvolvimento e de operações", "dica_extra": "O nome junta duas palavras em inglês: development e operations"},
+        {"resposta": "CONTEINER", "dica": "Pacote leve que reúne uma aplicação com tudo de que ela precisa para rodar em qualquer ambiente", "dica_extra": "Em inglês, a palavra se escreve com a letra a no lugar do primeiro e"},
+        {"resposta": "DOCKER", "dica": "Plataforma mais conhecida para empacotar aplicações e executá-las de forma isolada", "dica_extra": "Seu logotipo é uma baleia carregando caixas"},
+        {"resposta": "KUBERNETES", "dica": "Plataforma de código aberto, criada pelo Google, que orquestra e gerencia muitas aplicações empacotadas em vários computadores", "dica_extra": "É frequentemente abreviada como K8s"},
+        {"resposta": "PIPELINE", "dica": "Sequência automatizada de etapas que leva o código desde a alteração até a publicação, passando por testes", "dica_extra": "Em CI/CD, é o fluxo que roda a cada alteração enviada"},
+        {"resposta": "ESCALABILIDADE", "dica": "Capacidade de um sistema de lidar com mais carga aumentando seus recursos", "dica_extra": "Pode ser vertical, com máquinas mais fortes, ou horizontal, com mais máquinas"},
+        {"resposta": "SERVERLESS", "dica": "Modelo em que o desenvolvedor executa código sem precisar gerenciar a infraestrutura, pagando apenas pelo uso", "dica_extra": "Apesar do nome, existem computadores por trás, só que gerenciados pelo provedor"},
+        {"resposta": "MONITORAMENTO", "dica": "Acompanhamento contínuo de métricas e registros de sistemas para detectar falhas e problemas de desempenho", "dica_extra": "Alertas automáticos costumam avisar a equipe quando algo foge do normal"},
+        {"resposta": "VIRTUALIZACAO", "dica": "Técnica que cria versões virtuais de recursos físicos, como várias máquinas rodando em um mesmo computador", "dica_extra": "Hipervisores, como VMware e Hyper-V, fazem isso"}
+      ]
+    }
+  ]
+}
